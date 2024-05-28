@@ -7,7 +7,7 @@ return x;
 async function msg(str) {
     return new Promise(resolve => {
         setTimeout(() => {
-            document.querySelector(".con").innerHTML=document.querySelector(".con").innerHTML+`<div class="msgs"> ${str}  <span class="dots">.  .  .</span> <br> </div>`;
+            document.querySelector(".con").innerHTML=`<div class="msgs"> ${str}  <span class="dots">.  .  .</span> <br> </div>`;
             resolve();
         }, getrandom()*1000);
     })
