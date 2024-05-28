@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excerise 14</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            background-color: black;
+            color: #145722;
+            font-family: "Arimo", sans-serif;
+        }
+        .dots {
+            font-size: larger;
+            display: inline-grid;
+            width: 22.23px;
+            height: 23px;
+            animation: dotsworking 1s ease-in-out infinite;
+            overflow: hidden;
+            justify-content: end;
+        }
+        @keyframes dotsworking {
+            0% {
+                width: 6px;
+            }
+            33.33% {
+                width: 15px;
+            }
+            100% {
+                width: 32.23px;
+            }
+        }
+        .msgs{
+            font-size: larger;
+        }
+        .con {
+            display: grid;
+            /* justify-content: center; */
+            align-items: center;
+            margin: 100px;
+        }
+        .lastmsg {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="con"></div>
+    <script src="excerise14.js"></script>
+</body>
+</html>
